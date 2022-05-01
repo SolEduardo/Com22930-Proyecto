@@ -110,14 +110,22 @@ box-shadow: 0px 2px 5px 0px rgba(82,82,82,1);
 }
 .main-container-items{
     display: flex;
-    justify-content: center;
-    width: 80vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
+/*.box-item{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}*/
 .item-img{
     display: flex;
     justify-content: center;
-    padding: 2vh 2vh 2vh 2vh;
 }
+
 .item-txt{
     padding: 2vh 2vh 2vh 2vh;
 }
@@ -132,6 +140,12 @@ box-shadow: 0px 2px 5px 0px rgba(82,82,82,1);
     justify-content: center;
     padding-top: 8vh;
     padding-bottom: 8vh;
+}
+.language img{
+    transition: all 300ms;
+}
+.language img:hover{
+    transform: scale(1.1);
 }
 /* >> information section */
 .main-inf{
