@@ -64,37 +64,44 @@
         </nav> -->
 
         <nav class="navbar navbar-expand-sm navbar-dark header-content-bar">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="Multimedia/speakers.png" alt="Avatar Logo" style="width:8vw" class="rounded-pill"> 
+            <div class="container-fluid header-bar">
+                <a class="navbar-brand header-logo" href="index.html">
+                    <img src="Multimedia/speakers.png" alt="Avatar Logo" style="width:9vw" class="rounded-pill"> 
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="collapse navbar-collapse header-menu" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Link</a></li>
-                              <li><a class="dropdown-item" href="#">Another link</a></li>
-                              <li><a class="dropdown-item" href="#">A third link</a></li>
-                            </ul>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cursos</a>
+                                <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown1">
+                                    <a class="dropdown-item" href="Pages/cursoingles.html">Inglés</a>
+                                    <a class="dropdown-item" href="Pages/cursoaleman.html">Alemán</a>
+                                    <a class="dropdown-item" href="Pages/cursofrances.html">Francés</a>
+                                    <a class="dropdown-item" href="Pages/cursojapones.html">Japonés</a>
+                                </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="Pages/aranceles.html">Aranceles</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="Pages/excursiones.html">Excursiones</a>
                         </li>    
+                        <li class="nav-item">
+                            <a class="nav-link" href="Pages/inscripciones.html">Inscripciones</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="Pages/contacto.html">Contacto</a>
+                        </li> 
                     </ul>
                 </div>
             </div>
-          </nav>
+        </nav>
         
-        <div class="container-fluid main-imagen">
+        <div class="container-fluid main-img">
             <div class="row justify-content-center main-img">
-                <div class="main-principal-img col-md-8">
+                <div class="main-principal-img col-md-8 col-sm-12">
                     <img src="Multimedia/index.jpeg" alt="libro" width="100%">
                 </div>
             </div>
@@ -102,7 +109,7 @@
 
         <div class="container-fluid main-items">
             <div class="row main-container-items">
-                <div class="box-item col-md-3">
+                <div class="box-item col-md-3 col-sm-12">
                     <div class="item-img">
                         <img src="Multimedia/language.png" width="120vw">
                     </div>
@@ -111,7 +118,7 @@
                     </p>
                     </div>
                 </div>
-                <div class="box-item col-md-3">
+                <div class="box-item col-md-3 col-sm-12">
                     <div class="item-img">
                         <img src="Multimedia/travel.png" width="120vw">
                     </div>
@@ -119,7 +126,7 @@
                         <p>Organizamos y dirigimos viajes de estudio a distintos países para poner en práctica lo aprendido y estar en contacto con la cultura local.</p>
                     </div>
                 </div>
-                <div class="box-item col-md-3">
+                <div class="box-item col-md-3 col-sm-12">
                     <div class="item-img">
                         <img src="Multimedia/teach.png" width="120vw">
                     </div>
@@ -134,12 +141,12 @@
             <div class="main-container-options">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="op-txt col-md-6">
+                        <div class="op-txt col-md-6 col-sm-12">
                             <h1 class="display-3">Accedé a nuestros cursos</h1>
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                            <div class="main-languages col-md-3">
+                            <div class="main-languages col-md-3 col-sm-12 col-xs-12">
                                 <div class="language">
                                     <a title="Inglés" href="Pages/cursoingles.html"> <img src="Multimedia/uk.png" width="140vw"> </a>
                                 </div>
@@ -147,7 +154,7 @@
                                     <a title="Francés" href="Pages/cursofrances.html"> <img src="Multimedia/france.png" width="140vw"> </a>
                                 </div>
                             </div>
-                            <div class="main-languages col-md-3">
+                            <div class="main-languages col-md-3 col-sm-12">
                                 <div class="language">
                                     <a title="Alemán" href="Pages/cursoaleman.html"> <img src="Multimedia/germany.png" width="140vw"> </a>
                                 </div>
@@ -156,7 +163,7 @@
                                 </div>
                             </div>
                                 
-                            <div class="main-form col-md-6">
+                            <div class="main-form col-md-6 col-sm-12 col-xs-12">
                                 <form>
                                     <div class="mb-3">
                                         <label for="InputName" class="form-label">Nombre:</label>
@@ -187,10 +194,10 @@
 
         <div class="container main-inf">
             <div class="row justify-content-center main-container-inf">
-                <div class="inf-img col-md-4">
+                <div class="inf-img col-lg-4 col-sm-12 col-xs-12">
                     <img src="Multimedia/viaje.png" width=400vw">
                 </div>
-                <div class="inf-txt col-md-4">
+                <div class="inf-txt col-lg-4 col-sm-12 col-xs-12">
                     <h6 class="display-6">¡Sé partícipe de nuestros viajes de intercambio!<br>
                     Contamos con más de diez años realizando viajes de intercambio al rededor del mundo para que nuestros estudiantes puedan poner en práctica lo aprendido y lograr un acercamiento con el lenguaje y la cultura local, además de realizar excursiones a puntos histórico culturales guiados por guías nativos en sus respectivos idiomas.</h6>
                 </div>

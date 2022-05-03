@@ -8,47 +8,19 @@
     width: 100%;
 }
 
-
-/* HEADER TOP */
-.header-content{
+/* HEADER MENÚ */
+.header-content-bar{
+    width: 100%;
+    background-color: #2471A3;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(82,82,82,1);
     -moz-box-shadow: 0px 2px 5px 0px rgba(82,82,82,1);
     box-shadow: 0px 2px 5px 0px rgba(82,82,82,1);
     position: relative
 }
-.header-content-inf{
-    display: flex;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    padding-left: 15vw;
-    padding-right: 15vw;
-    background-color: black;
-}
-.header-content-inf p{
-    color: #ffffff;
-}
-.header-inf{
-    width: 35vw;  
-}
-.header-contact{
-    width: 35vw;
-    display: flex;  
-    flex-direction: row; 
-    justify-content: flex-end;
-}
-.header-contact img{
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
-}
-/* HEADER MENÚ */
-.header-content-bar{
-    width: 100%;
-    background-color: #2471A3;
-}
 .header-bar{
     margin-left: 15vw;
     margin-right: 15vw;
-    display: inline-flex;
+    display: flex;
 }
 .header-logo{
     margin-left: 5vw;
@@ -56,30 +28,23 @@
 }
 .header-menu{
     display: flex;
-    margin-left: 8vw;
-    margin-right: 8vw;
+    justify-content: end;
     list-style: none;
     font-size: 0;
-}
-.header-menu li{
-    display: inline-block;
-    position:relative;
 }
 .header-menu a{
     text-decoration: none;
     font-size: 20px;
     color: #ffffff;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
-.header-menu submenu{
-    position: absolute;
-    display: none;
+.submenu{
+    background-color: #2E93D4;
+    visibility: 1;
+    opacity: 0.9;
 }
-.header-menu submenu li{
-    display: block;
-}
-.header-menu li:hover submenu{
-    display: block;
-}
+
 /* MAIN BODY >> image section */
 
 .main-img{
@@ -153,20 +118,48 @@
     padding-bottom: 10vh;
 }
 .inf-txt{
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+.inf-img{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
 .display-6{
     font-size: 1.8em;
+}
+/****** ARANCELES ******/
+.space{
+    margin-top: 5vh;
+}
+.main-title{
+    background-color: #F2F4F4;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+.display-2{
+    font-size: 3em;
+    color: #D42E47;
+    text-align: center;
+    font-weight: bold;
+}
+.display-5{
+    font-size: 1.5em;
+    color: black;
+    text-align: left;
+}
+.cont-table{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 
 
 /* FOOTER */
-.footer{
+footer{
     background-color: #24A392;
 }
 
