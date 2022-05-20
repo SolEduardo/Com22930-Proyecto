@@ -24,19 +24,6 @@
   padding-top: 3vh;
 }
 
-.font-5 {
-  font-size: 1.2em;
-  color: black;
-  text-align: left;
-  margin-top: 2vh;
-  padding-left: 3vw;
-  padding-right: 3vw;
-}
-
-.font-6 {
-  font-size: 1em;
-}
-
 /* HEADER MENÚ */
 .header-content-bar {
   width: 100%;
@@ -260,7 +247,30 @@
 
 /* FOOTER */
 footer {
-  background-image: url(/Multimedia/footer.png);
-  background-size: cover;
+  background-color: #24A392;
+  background-image: radial-gradient(circle at 100% 150%, #24A392 24%, #29BFAB 24%, #29BFAB 28%, #24A392 28%, #24A392 36%, #29BFAB 36%, #29BFAB 40%, transparent 40%, transparent), radial-gradient(circle at 0 150%, #24A392 24%, #29BFAB 24%, #29BFAB 28%, #24A392 28%, #24A392 36%, #29BFAB 36%, #29BFAB 40%, transparent 40%, transparent), radial-gradient(circle at 50% 100%, #29BFAB 10%, #24A392 10%, #24A392 23%, #29BFAB 23%, #29BFAB 30%, #24A392 30%, #24A392 43%, #29BFAB 43%, #29BFAB 50%, #24A392 50%, #24A392 63%, #29BFAB 63%, #29BFAB 71%, transparent 71%, transparent), radial-gradient(circle at 100% 50%, #29BFAB 5%, #24A392 5%, #24A392 15%, #29BFAB 15%, #29BFAB 20%, #24A392 20%, #24A392 29%, #29BFAB 29%, #29BFAB 34%, #24A392 34%, #24A392 44%, #29BFAB 44%, #29BFAB 49%, transparent 49%, transparent), radial-gradient(circle at 0 50%, #29BFAB 5%, #24A392 5%, #24A392 15%, #29BFAB 15%, #29BFAB 20%, #24A392 20%, #24A392 29%, #29BFAB 29%, #29BFAB 34%, #24A392 34%, #24A392 44%, #29BFAB 44%, #29BFAB 49%, transparent 49%, transparent);
+  background-size: 100px 50px;
+}
+
+footer .foot {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+footer .foot .foot-cont li {
+  list-style: none;
+}
+
+footer .foot .foot-cont li a {
+  text-decoration: none;
+  font-size: 1em;
+  color: black;
+  font-weight: bold;
+}
+
+footer .foot .foot-cont .foot-sites {
+  margin-top: 3vh;
 }
 /*# sourceMappingURL=estilos.css.map */
