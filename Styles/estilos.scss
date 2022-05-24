@@ -172,26 +172,21 @@ $base-gcolor: #24A392;
 /****** ARANCELES ******/
 .principal{
     margin-top: 2vh;
-    
+    margin-bottom: 2vh;
+    display: block;
 }
 .space{
     margin-top: 5vh;
-    .main-title{
-        @include font-2();
-        margin-top: 3vh;
-        margin-bottom: 5vh;
-    }
-    .form{
-        padding-left: 2vw;
-        padding-right: 2vw;
-        .tr{
-            margin-top: 1vh;
-            margin-bottom: 1vh;
-        }
-    }
-    .sub-title{
-        @include font-3();
-    }
+}
+.img-foot{
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+.p-accordion{
+    margin-right: 5vw;
+}
+.card-img{
+    height: 25vh;
 }
 
 

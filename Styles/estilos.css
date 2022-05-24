@@ -209,40 +209,25 @@
 /****** ARANCELES ******/
 .principal {
   margin-top: 2vh;
+  margin-bottom: 2vh;
+  display: block;
 }
 
 .space {
   margin-top: 5vh;
 }
 
-.space .main-title {
-  background-color: #2471A3;
-  font-size: 3em;
-  color: #ffffff;
-  text-align: center;
-  margin-top: 3vh;
-  margin-bottom: 5vh;
-}
-
-.space .form {
-  padding-left: 2vw;
+.img-foot {
   padding-right: 2vw;
+  padding-left: 2vw;
 }
 
-.space .form .tr {
-  margin-top: 1vh;
-  margin-bottom: 1vh;
+.p-accordion {
+  margin-right: 5vw;
 }
 
-.space .sub-title {
-  font-size: 2em;
-  color: #ffffff;
-  text-align: center;
-  background-color: #2d8ecd;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-  padding-top: 0rem;
-  padding-top: 1rem;
+.card-img {
+  height: 25vh;
 }
 
 /* FOOTER */
