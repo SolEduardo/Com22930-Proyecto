@@ -230,12 +230,9 @@ $base-gcolor: #24A392;
 
 @media (max-width: 768px){
     .principal{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 20%;
         .card{
             height: 40vh;
+            margin-left: 20%;
         }
     }
 }

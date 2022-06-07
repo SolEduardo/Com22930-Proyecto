@@ -217,14 +217,9 @@
 }
 
 @media (max-width: 768px) {
-  .principal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 20%;
-  }
   .principal .card {
     height: 40vh;
+    margin-left: 20%;
   }
 }
 .ex-principal {
