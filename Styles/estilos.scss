@@ -158,6 +158,28 @@ $base-gcolor: #24A392;
         }
 }
 
+@media (max-width: 768px) {
+    .main-items{
+        .item-img{
+            img{
+                width: 20vw;
+            }
+        }
+        .item-txt{
+            p{
+                font-size: 0.9em;
+            }
+        }
+    }
+    .main-container-inf{
+        .inf-img{
+            img{
+                width: 80vw;
+            }
+        }
+    }
+}
+
 /****** ARANCELES ******/
 .principal{
     margin-top: 2vh;
@@ -193,9 +215,9 @@ $base-gcolor: #24A392;
         }
         .card{
             height: 43vh;        
-            .card-img{
-                height: 25vh;
-            }
+                .card-img{
+                    height: 25vh;
+                }
         }
         .img-foot{
             font-size: 1.2em;
@@ -205,6 +227,19 @@ $base-gcolor: #24A392;
             color: black;
         }
 }
+
+@media (max-width: 768px){
+    .principal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20%;
+        .card{
+            height: 40vh;
+        }
+    }
+}
+
 .ex-principal{
     margin-bottom: 15vh;
     padding-top: 5vh;
@@ -247,10 +282,19 @@ $base-gcolor: #24A392;
     background-blend-mode: multiply;
     background-attachment: fixed;
 }
+
 .space-form{
     margin-bottom: 3vh;
     .txt-form{
         margin-bottom: 1.3vh;
+    }
+}
+
+@media (max-width: 768px){
+    .cn-principal{
+        .right{
+            margin-top: 3vh;
+        }
     }
 }
 
